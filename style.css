@@ -1,0 +1,127 @@
+body {
+	font-family: roboto;
+}
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	height: 40px;
+}
+
+a {
+	text-decoration: none;
+	color:#666666;
+	margin: 10px 15px 10px 15px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	color: #cdcaca;
+}
+
+#Logo {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	height: 350px;
+}
+
+#bdr {
+	display: flex;
+	justify-content: center;
+}
+
+#boutons { 
+	display: flex;
+	justify-content: center;
+	padding: 0 50px 0 50px;
+ }
+
+footer {
+  	background: #f2f2f2;
+  	position: fixed;
+	border-top: solid 2px #e4e4e4;
+	bottom: 0;
+	padding-bottom: 0;
+	width: 100%;
+	z-index: 104;
+}
+
+.bas {
+	width: 95%;
+	height: 2px;
+}
+
+#footer_gauche{
+	float: left;
+	margin: 7px;
+	padding-top: 5px;
+}
+
+#footer_droit {
+	float: right;
+	margin:7px;
+	margin-bottom: 3px;
+}
+
+li {
+	margin: 0px 0px 0px 10px;
+	list-style-type: none;
+	color:#666666;
+}
+
+li a, li a:visited {
+	color: #666666;
+}
+
+#apps {
+display: inline-block;
+padding: 0px 10px 0px 0px; 
+height: 23px;
+width: 23px;
+background-position: -150px -40px;
+margin-top: 11px;
+opacity: .55;
+}
+
+#connect {
+display: inline-block;
+padding: 0px 10px 0px 0px; 
+height: 30px;
+width: 80px;
+background-position: -150px -40px;
+margin-top: 8px;
+opacity:55;
+}
+
+#bouton_google {
+	display: inline-block;
+padding: 0px 10px 0px 0px; 
+background-position: -150px -40px;
+margin-top:-100px;
+margin-left: 0px;
+opacity:55;
+}
+
+#chance {
+	display: inline-block;
+padding: 0px 10px 0px 0px; 
+background-position: -150px -40px;
+margin-bottom:-100px;
+margin-right: 0px;
+opacity:55;
+}
+
+#barre_recherche {
+	display: inline-block;
+padding: 0px 10px 0px 0px; 
+height: 50px;
+width: 460px;
+background-position: -150px -50px;
+margin-top: -70px;
+margin-bottom: -30px;
+opacity:55;
+}
